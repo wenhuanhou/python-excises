@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="104c0c85-5c1e-403c-a663-d7131568801b" name="Changes" comment="ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -35,8 +38,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.hello.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
@@ -60,7 +68,7 @@
       <updated>1724158083995</updated>
       <workItem from="1724158085599" duration="294000" />
       <workItem from="1724158390947" duration="44000" />
-      <workItem from="1724158461965" duration="73000" />
+      <workItem from="1724158461965" duration="897000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <option name="closed" value="true" />
@@ -102,7 +110,39 @@
       <option name="project" value="LOCAL" />
       <updated>1724158405855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ok">
+      <option name="closed" value="true" />
+      <created>1724158564464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724158564464</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ok">
+      <option name="closed" value="true" />
+      <created>1724158679439</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724158679440</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ok">
+      <option name="closed" value="true" />
+      <created>1724159337237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724159337237</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ok">
+      <option name="closed" value="true" />
+      <created>1724159357673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724159357673</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +151,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_excises$hello.coverage" NAME="hello Coverage Results" MODIFIED="1724158553103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
