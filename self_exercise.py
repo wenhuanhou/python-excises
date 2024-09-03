@@ -59,9 +59,9 @@
 #         print('guess another number')
 #
 # 列表计数从0开始正数，倒数从-1开始
+from tkinter.font import names
 
-
-names = ["Viivi", "Ahmed", "Pekka", "Olga", "Mary"]
+# names = ["Viivi", "Ahmed", "Pekka", "Olga", "Mary"]
 
 # print(names[3]) #3意思是正数第四个，从0开始
 # print(names[1])
@@ -102,23 +102,53 @@ names = ["Viivi", "Ahmed", "Pekka", "Olga", "Mary"]
 # Initialize an empty list to store the numbers
 numbers = []
 
-# Ask the user to enter numbers until they input an empty string
-while True:
-    user_input = input("Enter a number (or press Enter to quit): ")
+# # Ask the user to enter numbers until they input an empty string
+# while True:
+#     user_input = input("Enter a number (or press Enter to quit): ")
+#
+#     # If the input is an empty string, break the loop
+#     if user_input == "":
+#         break
+#
+#     # Convert the input to a float and add it to the list
+#     numbers.append(float(user_input))
+#
+# # Sort the numbers in descending order
+# numbers.sort(reverse=True)
+#
+# # Get the top 5 greatest numbers
+# top_five_numbers = numbers[:5]
+#
+# # Print the top 5 greatest numbers
+# print("The five greatest numbers are:", top_five_numbers)
 
-    # If the input is an empty string, break the loop
-    if user_input == "":
-        break
+# def greet():
+#     print("Hello!")
+#     return
+#
+# print("A new day starts with a greeting.")
+# greet()
+# print("Now we can move to other business.")
+# 定义一个带有默认参数的函数 greet
+# 定义一个带有默认参数的函数 greet
+# def greet(name="Guest"):
+#     # 打印问候语
+#     print(f"Hello, {name}!")
+#
+# # 调用 greet 函数而不传递参数，使用默认值
+# greet()  # 输出 "Hello, Guest!"
+#
+# # 调用 greet 函数并传递一个参数 "Alice"
+# greet("Alice")  # 输出 "Hello, Alice!"
+#
+# # 调用 greet 函数并传递一个参数 "Bob"
+# greet("Bob")  # 输出 "Hello, Bob!"
+def sum(a,b):
+    sum = a+b
+    return sum
+print(f'the sum is :{sum(4,5)}')
 
-    # Convert the input to a float and add it to the list
-    numbers.append(float(user_input))
 
-# Sort the numbers in descending order
-numbers.sort(reverse=True)
 
-# Get the top 5 greatest numbers
-top_five_numbers = numbers[:5]
 
-# Print the top 5 greatest numbers
-print("The five greatest numbers are:", top_five_numbers)
 
