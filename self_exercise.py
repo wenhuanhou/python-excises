@@ -59,7 +59,7 @@
 #         print('guess another number')
 #
 # 列表计数从0开始正数，倒数从-1开始
-from operator import index
+
 
 names = ["Viivi", "Ahmed", "Pekka", "Olga", "Mary"]
 
@@ -90,12 +90,35 @@ names = ["Viivi", "Ahmed", "Pekka", "Olga", "Mary"]
 #
 # fx='Pekka'in names
 # print(fx)
-names = []
+# names = []
+#
+# name = input("Enter the first name or quit by pressing Enter: ")
+# while name!="":
+#     names.append(name)
+#     name = input("Enter the next name or quit by pressing Enter: ")
+#
+# for g in names:
+#     print(f"Hello, {g}!")
+# Initialize an empty list to store the numbers
+numbers = []
 
-name = input("Enter the first name or quit by pressing Enter: ")
-while name!="":
-    names.append(name)
-    name = input("Enter the next name or quit by pressing Enter: ")
+# Ask the user to enter numbers until they input an empty string
+while True:
+    user_input = input("Enter a number (or press Enter to quit): ")
 
-for g in names:
-    print(f"Hello, {g}!")
+    # If the input is an empty string, break the loop
+    if user_input == "":
+        break
+
+    # Convert the input to a float and add it to the list
+    numbers.append(float(user_input))
+
+# Sort the numbers in descending order
+numbers.sort(reverse=True)
+
+# Get the top 5 greatest numbers
+top_five_numbers = numbers[:5]
+
+# Print the top 5 greatest numbers
+print("The five greatest numbers are:", top_five_numbers)
+
