@@ -41,11 +41,20 @@
 # else:
 #     print('Go home, poor boy')
 
-age = int(input('enter your age: '))
-if 15<=age<=18:
-    weight = float(input('enter your weight(kg)： '))
-if age>=18 or age>15 and weight>=55:
-    print('you can use the medicine')
-else:
-    print('you should get older or get fatter')
+# age = int(input('enter your age: '))
+# if 15<=age<=18:
+#     weight = float(input('enter your weight(kg)： '))
+# if age>=18 or age>15 and weight>=55:
+#     print('you can use the medicine')
+# else:
+#     print('you should get older or get fatter')
 
+# age = int(input('enter your age: '))
+# if age>=65:
+#     print('you are retired')
+# elif 65>age>=18:
+#     print('you are at work')
+# elif 18>age>=7:
+#     print('you are at school')
+# else :
+#     print('you are a child')
