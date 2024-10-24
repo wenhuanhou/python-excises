@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="104c0c85-5c1e-403c-a663-d7131568801b" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/8.relation databases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. Fundamentals of object-oriented programming .py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.Function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,7 @@
     &quot;Python.5.List.executor&quot;: &quot;Run&quot;,
     &quot;Python.6.Function.executor&quot;: &quot;Run&quot;,
     &quot;Python.7.Tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9. Fundamentals of object-oriented programming .executor&quot;: &quot;Run&quot;,
     &quot;Python.hello.executor&quot;: &quot;Run&quot;,
     &quot;Python.self_exercise.executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
@@ -71,8 +70,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
-        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -109,7 +108,13 @@
       <workItem from="1725962541668" duration="2664000" />
       <workItem from="1726121424248" duration="9428000" />
       <workItem from="1726677428502" duration="32000" />
-      <workItem from="1727101547228" duration="2484000" />
+      <workItem from="1727101547228" duration="2500000" />
+      <workItem from="1727433591769" duration="51000" />
+      <workItem from="1727433659738" duration="657000" />
+      <workItem from="1727434995706" duration="93000" />
+      <workItem from="1727435312502" duration="732000" />
+      <workItem from="1729684010237" duration="1180000" />
+      <workItem from="1729750909599" duration="871000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <option name="closed" value="true" />
@@ -303,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726130246880</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ok">
+      <option name="closed" value="true" />
+      <created>1727104499004</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1727104499004</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +330,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_excises$9__Fundamentals_of_object_oriented_programming_.coverage" NAME="9. Fundamentals of object-oriented programming  Coverage Results" MODIFIED="1729751665256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_excises$2_variables_and_interactive_programs.coverage" NAME="2.variables and interactive programs Coverage Results" MODIFIED="1724703273834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_excises$test.coverage" NAME="test Coverage Results" MODIFIED="1726140114187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_excises$4_while_loops.coverage" NAME="4.while loops Coverage Results" MODIFIED="1725358857301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
